@@ -1,0 +1,21 @@
+{
+    "name": "phpcloudnative/clients",
+    "description": "The various cloud native base clients that can accept adapters.",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Stephen Miracle",
+            "email": "stephen@thatmiracle.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "League\\Flysystem\\": "src"
+        }
+    },
+    "require": {
+        "php": "7.4.0"
+    }
+}
