@@ -1,5 +1,6 @@
 <?php 
 
+namespace PHPCloudNative\Clients\Queue;
 
 interface Queuable 
 {
