@@ -40,7 +40,7 @@ $queue->send("sample message", "queueName", [
   ]
 ]
 ]);
-
+```
 
 ## Questions
 **What's the point?**
