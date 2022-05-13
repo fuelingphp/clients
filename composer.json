@@ -10,6 +10,9 @@
             "email": "stephen@thatmiracle.com"
         }
     ],
+    "scripts": {
+        "tests": "./vendor/bin/phpunit tests/"
+    },
     "autoload": {
         "psr-4": {
             "PHPCloudNative\\Clients\\": "src"
@@ -17,5 +20,8 @@
     },
     "require": {
         "php": "^7.4.0||^8.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }

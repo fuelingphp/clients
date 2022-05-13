@@ -1,6 +1,6 @@
 <?php 
 
-namespace PHPCloudNative\Queue;
+namespace PHPCloudNative\Clients\Queue;
 
 
 /**
