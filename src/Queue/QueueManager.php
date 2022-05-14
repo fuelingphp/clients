@@ -2,7 +2,7 @@
 
 namespace PHPCloudNative\Clients\Queue;
 
-interface Queueable 
+interface QueueManager
 {
   public function create(string $name);
   public function delete(string $name);
